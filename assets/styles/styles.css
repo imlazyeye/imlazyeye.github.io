@@ -1,0 +1,110 @@
+/* Top level styles */
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #291E43;
+  color: #C0BEC5;
+  font-family: 'Sunflower', Arial, sans-serif;
+}
+
+a {
+  color: #8fffbe;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8fffbe;
+  text-decoration: underline;
+}
+
+h3 a {
+  color: #F2F2F2;
+}
+
+/* Top-o-the page headers */
+.main-header {
+  text-transform: lowercase;
+  margin-top: 1.5em;
+}
+
+.sub-header {
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  letter-spacing: 4.2px;
+  text-transform: lowercase;
+}
+
+/* Global header styles */
+h1 {
+  letter-spacing: 9.5px;
+  line-height: 50px;
+}
+
+h2 {
+  letter-spacing: 3.5px;
+  font-size: 2.4em;
+}
+
+h1, h2 {
+  color: #3dffdb;
+  font-weight: 300;
+}
+
+h3, h4 {
+  color: #F2F2F2;
+}
+
+/* Top page row */
+.about-me-paragraph {
+  line-height: 37px;
+  word-wrap: break-word;
+  font-size: 1.1em;
+}
+
+.links-list {
+  color: #F2F2F2;
+  font-size: 1.1em;
+}
+
+.links-list li:first-child {
+  margin-top: 0;
+}
+
+.links-list li {
+  margin: 1.5em 0;
+}
+
+.links-list .lead {
+  letter-spacing: 2px;
+}
+
+/* Portfolio section */
+.portfolio-item {
+  border-top: 1px solid #BBBBBB;
+  padding-top: 3em;
+  margin-bottom: 5em;
+  height: 400px;
+}
+
+.portfolio-item h3 {
+  font-size: 1.3em;
+  margin-bottom: 1.3em;
+  text-transform: uppercase;
+}
+
+.portfolio-item p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  height: 100px;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .portfolio-item {
+    margin-bottom: 10em;
+  }
+}
