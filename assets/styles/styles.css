@@ -104,7 +104,14 @@ h3, h4 {
   width: 100%;
 }
 
+@media (max-width: 750px) {
+  #links-id * {
+    text-align: left;
+  }
+}
+
 @media (max-width: 991.98px) {
+
   .portfolio-item {
     margin-bottom: 10em;
   }
