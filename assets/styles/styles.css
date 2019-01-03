@@ -2,23 +2,23 @@
 html, body {
   margin: 0;
   height: 100%;
-  background: #291E43;
+  background: rgb(54, 42, 100);
   color: #C0BEC5;
   font-family: 'Sunflower', Arial, sans-serif;
 }
 
 a {
-  color: #8fffbe;
+  color: #ffd257;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8fffbe;
+  color: #ffeab1;;
   text-decoration: underline;
 }
 
 h3 a {
-  color: #8fffbe;
+  color: #ffd257;
 }
 
 /* Top-o-the page headers */
@@ -47,7 +47,7 @@ h2 {
 }
 
 h1, h2 {
-  color: #3dffdb;
+  color: #ff7a46;
   font-weight: 300;
 }
 
@@ -89,9 +89,14 @@ h3, h4 {
 }
 
 .portfolio-item h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
+  text-transform: lowercase;
+}
+
+.portfolio-item h4 {
+  font-size: 1.2em;
   margin-bottom: 1.3em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .portfolio-item p {
