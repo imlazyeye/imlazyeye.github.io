@@ -2,23 +2,23 @@
 html, body {
   margin: 0;
   height: 100%;
-  background: rgb(28, 36, 46);
-  color: #C0BEC5;
+  background: rgb(53, 56, 87);
+  color: rgb(207, 203, 216);
   font-family: 'Sunflower', Arial, sans-serif;
 }
 
 a {
-  color: #60ffc2;
+  color: #ffc4f7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #60ffc2;
+  color: #ececec;
   text-decoration: underline;
 }
 
 h3 a {
-  color: #60ffc2;
+  color: #ffc4f7;
 }
 
 /* Top-o-the page headers */
@@ -47,7 +47,7 @@ h2 {
 }
 
 h1, h2 {
-  color: #67ff81;
+  color: #ff8fda;
   font-weight: 300;
 }
 
@@ -80,9 +80,14 @@ h3, h4 {
   letter-spacing: 2px;
 }
 
+.row {
+  justify-content: space-around;
+  border-top: 1px solid #BBBBBB;
+
+}
+
 /* Portfolio section */
 .portfolio-item {
-  border-top: 1px solid #BBBBBB;
   padding-top: 3em;
   margin-bottom: 5em;
   height: 400px;
