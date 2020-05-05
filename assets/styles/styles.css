@@ -86,7 +86,6 @@ h4 {
 
 .row {
   justify-content: space-around;
-  border-top: 1px solid #bbbbbb;
 }
 
 /* Portfolio section */
@@ -109,7 +108,7 @@ h4 {
 
 .portfolio-item p {
   font-size: 1.1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   height: 100px;
 }
 
